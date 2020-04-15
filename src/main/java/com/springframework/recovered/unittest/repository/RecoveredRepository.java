@@ -1,6 +1,6 @@
-package com.springframework.recovered.repository;
+package com.springframework.recovered.unittest.repository;
 
-import com.springframework.recovered.model.Recovered;
+import com.springframework.recovered.unittest.model.Recovered;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

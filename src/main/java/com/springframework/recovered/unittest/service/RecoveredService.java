@@ -1,7 +1,7 @@
-package com.springframework.recovered.service;
+package com.springframework.recovered.unittest.service;
 
-import com.springframework.recovered.model.Recovered;
-import com.springframework.recovered.repository.RecoveredRepository;
+import com.springframework.recovered.unittest.model.Recovered;
+import com.springframework.recovered.unittest.repository.RecoveredRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.PathVariable;

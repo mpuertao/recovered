@@ -1,8 +1,8 @@
-package com.springframework.recovered;
+package com.springframework.recovered.unittest;
 
-import com.springframework.recovered.model.Recovered;
-import com.springframework.recovered.repository.RecoveredRepository;
-import com.springframework.recovered.service.RecoveredService;
+import com.springframework.recovered.unittest.model.Recovered;
+import com.springframework.recovered.unittest.repository.RecoveredRepository;
+import com.springframework.recovered.unittest.service.RecoveredService;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;

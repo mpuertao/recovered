@@ -1,8 +1,9 @@
-package com.springframework.recovered.controller;
+package com.springframework.recovered.unittest.controller;
 
-import com.springframework.recovered.model.Recovered;
-import com.springframework.recovered.service.RecoveredService;
+import com.springframework.recovered.unittest.model.Recovered;
+import com.springframework.recovered.unittest.service.RecoveredService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
