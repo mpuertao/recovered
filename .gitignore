@@ -1,74 +1,5 @@
-# Created by https://www.gitignore.io/api/java,eclipse,intellij
-# Edit at https://www.gitignore.io/?templates=java,eclipse,intellij
-
-### Eclipse ###
-.metadata
-bin/
-tmp/
-*.tmp
-*.bak
-*.swp
-*~.nib
-local.properties
-.settings/
-.loadpath
-.recommenders
-
-# External tool builders
-.externalToolBuilders/
-
-# Locally stored "Eclipse launch configurations"
-*.launch
-
-# PyDev specific (Python IDE for Eclipse)
-*.pydevproject
-
-# CDT-specific (C/C++ Development Tooling)
-.cproject
-
-# CDT- autotools
-.autotools
-
-# Java annotation processor (APT)
-.factorypath
-
-# PDT-specific (PHP Development Tools)
-.buildpath
-
-# sbteclipse plugin
-.target
-
-# Tern plugin
-.tern-project
-
-# TeXlipse plugin
-.texlipse
-
-# STS (Spring Tool Suite)
-.springBeans
-
-# Code Recommenders
-.recommenders/
-
-# Annotation Processing
-.apt_generated/
-
-# Scala IDE specific (Scala & Java development for Eclipse)
-.cache-main
-.scala_dependencies
-.worksheet
-
-### Eclipse Patch ###
-# Eclipse Core
-.project
-
-# JDT-specific (Eclipse Java Development Tools)
-.classpath
-
-# Annotation Processing
-.apt_generated
-
-.sts4-cache/
+# Created by https://www.toptal.com/developers/gitignore/api/maven,intellij,java
+# Edit at https://www.toptal.com/developers/gitignore?templates=maven,intellij,java
 
 ### Intellij ###
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and WebStorm
@@ -104,8 +35,6 @@ local.properties
 # .idea/modules.xml
 # .idea/*.iml
 # .idea/modules
-# *.iml
-# *.ipr
 
 # CMake
 cmake-build-*/
@@ -149,14 +78,7 @@ fabric.properties
 # *.ipr
 
 # Sonarlint plugin
-.idea/**/sonarlint/
-
-# SonarQube Plugin
-.idea/**/sonarIssues.xml
-
-# Markdown Navigator plugin
-.idea/**/markdown-navigator.xml
-.idea/**/markdown-navigator/
+.idea/sonarlint
 
 ### Java ###
 # Compiled class file
@@ -180,6 +102,9 @@ fabric.properties
 *.tar.gz
 *.rar
 
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
 ### Maven ###
 target/
 pom.xml.tag
@@ -191,8 +116,5 @@ dependency-reduced-pom.xml
 buildNumber.properties
 .mvn/timing.properties
 .mvn/wrapper/maven-wrapper.jar
-.flattened-pom.xml
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
 
-# End of https://www.gitignore.io/api/java,eclipse,intellij
+# End of https://www.toptal.com/developers/gitignore/api/maven,intellij,java

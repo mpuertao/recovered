@@ -3,15 +3,14 @@ package com.springframework.recovered.model;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
-import javax.persistence.Entity;
-import javax.persistence.Id;
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
 
 @NoArgsConstructor
 @AllArgsConstructor
 @Data
-@Entity
-public class Recovered  {
+@Document
+public class Recovered {
 
     @Id
     private int id;

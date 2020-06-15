@@ -23,7 +23,7 @@ public class RecoveredController {
         return recoveredService.retrieveRecovered(id);
     }
 
-    @PostMapping("/movies")
+    @PostMapping("/recovered")
     public Integer createRecovered(@RequestBody Recovered recovered) {
         return recoveredService.createRecovered(recovered);
     }

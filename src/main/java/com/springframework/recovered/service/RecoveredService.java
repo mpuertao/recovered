@@ -25,6 +25,8 @@ public class RecoveredService {
         Recovered response = new Recovered();
         response.setName(recovered.getName()
         .toLowerCase());
+        response.setId(recovered.getId());
+        response.setAge(recovered.getAge());
         return response;
     }
 
