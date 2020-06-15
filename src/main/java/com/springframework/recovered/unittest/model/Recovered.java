@@ -1,4 +1,4 @@
-package com.springframework.recovered.model;
+package com.springframework.recovered.unittest.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
